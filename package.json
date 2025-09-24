@@ -1,7 +1,7 @@
 {
   "name": "integration-cloud-bpms",
   "version": "1.0.0",
-  "description": "Un projet visant à intégrer des BPMS avec des services cloud.",
+  "description": "A project aimed at integrating BPMS with cloud services.",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
