@@ -9,9 +9,9 @@ const PORT = process.env.PORT || 3000;
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Bienvenue dans le serveur d'intégration Cloud pour BPMS !');
+    res.send('Welcome to the Cloud Integration Server for BPMS!');
 });
 
 app.listen(PORT, () => {
-    console.log(`Serveur en écoute sur le port ${PORT}`);
+    console.log(`Server is listening on port ${PORT}`);
 });
